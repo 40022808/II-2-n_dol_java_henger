@@ -26,6 +26,8 @@ public class Hengel {
         double surfaceArea = calculateSurfaceArea(radius, height);
 
         System.out.printf("A henger felszínét: %.2f\n", surfaceArea);
+
+        sc.close();
     }
 
     public static double calculateSurfaceArea(double radius, double height) {
